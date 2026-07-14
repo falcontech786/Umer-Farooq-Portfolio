@@ -21,7 +21,7 @@ export type Project = {
   challenges: { title: string; detail: string }[];
   outcome: string[];
   techStack: string[];
-  images: ProjectImage[];
+  images?: ProjectImage[] ;
   liveNote?: string;
 };
 
